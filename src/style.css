@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=DM+Serif+Display&family=Dancing+Script&family=IBM+Plex+Sans+Condensed&family=IBM+Plex+Sans:ital,wght@1,700&family=Josefin+Slab:wght@100&family=PT+Serif&family=Prosto+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=DM+Serif+Display&family=Dancing+Script&family=IBM+Plex+Sans+Condensed&family=IBM+Plex+Sans:ital,wght@1,700&family=Josefin+Slab:wght@100&family=PT+Serif&family=Pacifico&family=Prosto+One&family=Secular+One&family=Yanone+Kaffeesatz:wght@300;500&display=swap');
+
+* {
+    font-family: 'PT Serif', serif;
+}
+
+body {
+    min-height: 98vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffeaa7;
+}
+
+.mainContainer {
+    border: 2px solid black;
+    min-width: 25vw;
+    max-width: 50vw;
+    min-height: 80vh;
+    background-color: #f8fae5;
+    padding: 1rem;
+    box-sizing: border-box;
+    border-radius: 15px;
+    box-shadow: 3px 3px 10px rgb(86, 86, 86) ;
+
+}
+
+.heading {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+
+}
+
+.heading h2 {
+    background-color: rgb(250 99 99);
+    padding: 8px 14px;
+    border-radius: 20px 5px;
+    color: white;
+    box-shadow: 3px 3px 10px rgb(86, 86, 86) ;
+}
+
+.form {
+    margin-bottom: 40px;
+    text-align: center;
+    /* width: 100%; */
+}
+
+.form input {
+    width: 67%;
+    font-size: 1.25rem;
+    border-radius: 5px;
+    box-shadow: 2px 2px 3px rgb(86, 86, 86) ;
+
+}
+
+.form button {
+    font-size: 1.25rem;
+    margin-left: 10px;
+    border-radius: 5px;
+    box-shadow: 3px 3px 4px rgb(86, 86, 86) ;
+
+    border-radius: 10px 5px;
+    border: 2px solid rgb(250 99 99);
+    background-color: rgb(250 99 99);
+    color : white;
+    cursor: pointer;
+
+
+}
+
+.allItems {
+    /* text-align: center; */
+    padding-left: 6%;
+}
+
+.listItem {
+    font-size: 1.5rem;
+    /* list-style: none; */
+}
+
+.delete {
+    font-size: 0.75rem;
+    border-radius: 10px 5px;
+    border: 2px solid rgb(250 99 99);
+    background-color: rgb(250 99 99);
+    color : white;
+    margin-right: 4px;
+    box-shadow: 3px 3px 4px rgb(86, 86, 86) ;
+    cursor: pointer;
+}
+
+.footer {
+    margin-top: 25px;
+    text-align: center;
+}
+
+@media only screen and (max-width: 1450px) {
+    .mainContainer {
+        min-width: 45vw;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .mainContainer {
+        min-width: 85vw;
+    }
+}
